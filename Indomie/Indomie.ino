@@ -61,7 +61,7 @@ void forward(){
  
 void right(){
   digitalWrite(mr1,0);
-  digitalWrite(mr2,0);
+  digitalWrite(mr2,1);
 
   digitalWrite(ml1,1);
   digitalWrite(ml2,0);
@@ -75,7 +75,7 @@ void left(){
   digitalWrite(mr2,0);
 
   digitalWrite(ml1,0);
-  digitalWrite(ml2,0);
+  digitalWrite(ml2,1);
  }
 
 
